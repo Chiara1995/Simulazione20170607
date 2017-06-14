@@ -58,6 +58,7 @@ public class SerieAController {
 
     @FXML
     void handleDomino(ActionEvent event) {
+    	//cancello txtResult
     	this.txtResult.clear();
     	if(this.boxSeason.getValue()==null){
     		this.txtResult.setText("Selezionare una stagione.");
